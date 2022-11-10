@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta name = "viewport" content= "with=device-width, initial-scale=1.0">
+        <title> Jordan Tapiero - Portfolio</title>
+        <link rel="stylesheet" href="index.css">
+            
+        </head> 
+        <body>
+        <section class="header">
+
+            <nav>
+                <a href="index"><img src="Western_University_Canada_logo.png"></a>
+                <div class="nav-links" id="navLinks"> 
+                    
+                    <ul>
+                        <li><a href="#intro">Home</a></li>
+                        <li><a href="#about-me">About</a></li>
+                        <li><a href="#background-experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        <div class="intro" id="intro">
+
+            <h1>Hi! I'm</h1>
+            <h2> Jordan Tapiero</h2>
+            <p> A Software Engineering Student </p>
+            <a href="#contact" class="intro-btn"> Contact</a>
+
+            <div class="icons-btn">
+                <a href="https://www.linkedin.com/in/jordantapiero" class="linkedIn" ><img src = LinkedIn.png></a>
+                <a href="" class="github" ><img src = GitHub_Icon.png></a>
+
+
+            </div>
+
+    </div>
+        </section>
+
+        <!-------------about me------------------>
+        <section class="about-me" id="about-me">
+            <div class="container">
+            <div class="about-header">
+                <h1>About me</h1>
+                <p>Short Bio</p>
+            </div>
+            
+            <div class ="bio">
+                <p> 
+                    Hi!
+                    balajsdkasdjkaksd
+                    jhakjsdhkjashdk asdhjashodahsodijasoidjaoisjdoiasjdoiasjodijasodjiasjdoasjdoiajsoidasjashdkjhaskjdhaskjssdaasasdasdasdasdhdkajshdkjahkdjajkhdhaskjdhkajshdkjashdkjhaskjdhkajshdkjashdkjahskjdhaskjhdakjhdkajhsdkjashdkjahskjdhaskjdhaksjhdkjshkjdahkjahasdkjahshdoiewrowuyhakjsndkajndam;acmkjaJordan tapiero
+                </p>
+            <a href="index"><img src="Jordan_Tapiero_Photo.jpeg"></a>
+        </div>
+        </section>
+
+
+
+
+
+        <!------------- experience -------------------->
+        <section class= "background-experience" id="background-experience">
+            <div class = "container">
+            <div class="header-experience">
+            <h1> Experience</h1>
+            <p> Take a look at my Resume!</p>
+            <div class= "row">
+                <div class= "experience-col">
+                    <h1>Work Experience</h1>
+                    <h2>CYBER SECURITY INTERN</h2>
+                    <div class="date">
+                        <h3>May 2021- June 2021</h3>
+                    </div>
+                    <h3><em>Lightspin Technologies</em></h3>
+                    <div class="resume-points">
+                        <ul>
+                            <li>Established an algorithm using python to search through 1000+ tables to verify all tables were populated, contained specific web-elements and accurate data </li>
+                            <li>Applied numerous techniques and problem-solving skills to improve efficiency of table algorithm by 110%</li>
+                            <li>Created 4 automated tests by writing complex versatile python code to ensure company’s software was providing accurate and precise information to users</li>
+                            <li>Presented my work to 30+ colleagues explaining the key concepts and methods of implementation</li>
+                            <li>Designed a notification system that detected bugs in the UI by using python harmoniously with Microsoft Teams to alert company developers</li>
+                            <li>Used various tools to parse through JSON files and check for discrepancies between front-end and back-end</li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                    <br>
+                    <br>
+                <div class= "experience-col">    
+                    <h1>Education</h1>
+                    <h2>HONOURS BUSINESS ADMINISTRATION (HBA),
+                    </h2>
+                        <div class="date">
+                            <h3>Expected 2024</h3>
+                        </div>
+                        <h3><em>Ivey School of Business, Western University</em></h3>
+                        <br>
+                    <h2>BACHELOR OF ENGINEERING SCIENCE,<br>
+                        SOFTWARE ENGINEERING</h2>
+                    <div class="date">
+                        <h3>Sept 2020 - April 2022</h3>
+                    </div>
+                    <h3><em>Western University</em></h3>
+                    <div class="relevant-courses"></div>
+                    <h3>Relevant Courses:</h3>
+                    <div class="resume-points">
+                        <ul>
+                            <li>Programming Fundamentals</li>
+                            <li>Scripting Fundamentals</li>
+                            <li>Data Structures and Algorithm</li>
+                        </ul>
+                    </div>
+                    <div class="awards">
+                        <h3>Awards:</h3>
+                        <div class="resume-points">
+                        <ul>
+                            <li>Mackay-Lassonde Award in Computer Engineering (leadership)</li>
+                            <li>Roger A. Shorey Memorial Award in Engineering (academic)</li>
+                            <li>Dean’s Honour List (2020-2021)</li>
+                        </ul>
+                    </div>
+                </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+            
+        </section>
+        <!-----------Projects------->
+        <section class = "projects" id="projects">
+            <div class="container">
+                <div class="project-header">
+            <h1> Projects</h1>
+            <p> An overview of my projects</p>
+    
+            <div class="row">
+                <div class="project-col">
+                    <img src="SHMUP.png" style="width: 100%">
+                    <h3>Work Experience</h3>
+                        <p> My name is Jordan Tapiero, and I am currently entering the HBA class of 2024 at Ivey Business School, having completed the first 2 years in Software Engineering at Western University of Ontario.</p>
+                    </div>
+                <div class="project-col">
+                    <img src="enigma.png" style="width: 100%">
+                    <h3>Work Experience</h3>
+                        <p> My name is Jordan Tapiero, and I am currently entering the HBA class of 2024 at Ivey Business School, having completed the first 2 years in Software Engineering at Western University of Ontario.</p>
+                </div>
+                <div class="project-col">
+                    <img src="JT.webp" style="width: 100%">
+                    <h3>Work Experience</h3>
+                        <p> My name is Jordan Tapiero, and I am currently entering the HBA class of 2024 at Ivey Business School, having completed the first 2 years in Software Engineering at Western University of Ontario.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+        <!------------contact----->
+        <section class="contact" id="contact">
+            <div class="container">            
+                <form action="mailto:jordantapiero@gmail.com" method="post">
+                    <script src="https://smtpjs.com/v3/smtp.js">
+                    </script>
+              
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="fullname">
+              
+                  <label for="email">Email</label>
+                  <input type="text" id="emailId" name="email">
+                
+                </input>
+              
+                  <label for="message">Message</label>
+                  <textarea id="message" name="Message" style="height:200px"></textarea>
+              
+                  <input type="submit" value="Send" onclick="sendEmail()">
+                
+                </form>
+              </div>
+        </section>
+    </body>
+</html>  
+

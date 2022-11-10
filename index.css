@@ -1,0 +1,341 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(4,9,30,0.7)),url(203085-simple-blue-yellow-and-white-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 300px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+
+}
+.nav-links ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.intro{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align:center;
+    transform: translate(-50%, -50%) ;
+}
+.intro h1{
+    font-size: 25px;
+    margin: 0 10px;
+}
+.intro h2{
+    font-size: 60px;
+}
+.intro p{
+    font-size: 20px;
+    margin: 10px 0 40px;
+}
+.intro-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 6px 40px;
+    font-size: 15;
+    background: none;
+    position: relative;
+    cursor: pointer;
+}
+.intro-btn:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background: #f44336;
+    transition: 1.5s;
+}
+.icons-btn img{
+    align-items: center;
+    padding:3% 5px;
+    justify-content: space-between;
+    max-height:40px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+
+
+}
+@media(max-width:700px){
+    .intro h1{
+        font-size: 20px;
+    }
+    .nav-links{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height:100vh;
+        width:200px;
+        top:0;
+        right: -200px ;
+        text-align: left;
+        z-index: 2;
+
+    }
+    .nav-links ul{
+        padding: 30px;
+
+    }
+}
+/* ------------About Me ------*/
+.about-me{
+    width: 80%;
+    margin:auto;
+    text-align: left;
+    padding-top: 100px;
+    word-break: break-word;
+    
+}
+.bio{
+    padding: 50 0;
+    margin: auto;
+    display: flex;
+
+
+}
+.about-me img{
+    width: 300px;
+    margin: 0 0 0 100;
+    margin-right: 100px;
+    margin-top: -75px;
+    border-radius: 75px;
+    border: 1px solid rgb(0, 0, 0)
+
+}
+
+/*------ experience -------*/
+.background-experience{
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(231, 231, 231);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.header-experience{
+    width: 80%;
+    margin:auto;
+}
+
+.header-experience h1{
+    font-size:30px;
+    font-weight:600;
+}
+.experience-col h2{
+    color: #f44336;
+    font-size: 20px;
+    font-weight: 600;
+}
+.experience-col h3{
+    padding-top: 5px;
+    padding-left: 32px ;
+    font-size: 18px;
+    font-weight: 300;
+}
+.date h3{
+    font-weight: 600;
+}
+.h4{
+    font-size: 40px;
+    text-align: left;
+    color: #f44336;
+}
+.experience-col h1{
+    padding-bottom: 5;
+    
+    
+}
+.resume-points{
+    flex: 1;
+    text-align: left;
+    padding: 5 0 0 50;
+}
+.resume-points ul li{
+    padding: 5;
+    font-size: large;
+}
+.experience p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.relevant-courses h3{
+    font-size: smaller;
+    font-weight: 900;
+}
+
+
+p{
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 300;
+    line-height:22px;
+    padding: 10 0 0 0;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.experience-col{
+    flex: 31%;
+
+}
+    
+@media(max-width:700px){
+    .row{
+        flex-direction:column;    
+    }
+}
+
+/*------------ project ----*/
+
+.projects{
+    width: 80%;
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+.projects h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.projects p{
+    color: grey;
+    font-size: large;
+}
+.project-col{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background: rgb(239, 239, 239);
+    flex-basis: 31%;
+    box-sizing: border-box;
+    padding: 20px 12px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.project-col:hover{
+    box-shadow:0 0 30px 0px rgba(0,0,0,0.2);
+}
+.project-col img{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius:50px;
+    float: left;
+    width:  100px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.project-col h3{
+    padding-top: 210px;
+    padding-left: 32px ;
+    font-size: 20px;
+    font-weight: 600;
+}
+.project-col p{
+    color: black;
+    font-size: 15px;
+    text-align: left;
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
+/*-----------------Contact-----*/
+.contact{
+    padding-bottom: 50px;
+
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 10px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  */
+  .container{
+    padding: 40px;
+  }
+
