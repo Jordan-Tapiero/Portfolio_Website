@@ -31,7 +31,7 @@
 
             <div class="icons-btn">
                 <a href="https://www.linkedin.com/in/jordantapiero" class="linkedIn" ><img src = LinkedIn.png></a>
-                <a href="" class="github" ><img src = GitHub_Icon.png></a>
+                <a href="https://github.com/Jordan-Tapiero" class="github" ><img src = GitHub_Icon.png></a>
 
 
             </div>
@@ -49,9 +49,9 @@
             
             <div class ="bio">
                 <p> 
-                    Hi!
-                    balajsdkasdjkaksd
-                    jhakjsdhkjashdk asdhjashodahsodijasoidjaoisjdoiasjdoiasjodijasodjiasjdoasjdoiajsoidasjashdkjhaskjdhaskjssdaasasdasdasdasdhdkajshdkjahkdjajkhdhaskjdhkajshdkjashdkjhaskjdhkajshdkjashdkjahskjdhaskjhdakjhdkajhsdkjashdkjahskjdhaskjdhaksjhdkjshkjdahkjahasdkjahshdoiewrowuyhakjsndkajndam;acmkjaJordan tapiero
+                    Hi! My name is Jordan Tapiero, and I am currently entering the HBA class of 2024 at the Ivey Business School while having completed two years of Software Engineering at Western University. Ever since I was young, I had an affinity towards technology. It was only when I began my studies at Western University in Engineering that I grew a passion for coding. I am now very interested in pursuing a career in cybersecurity, AI or fintech company. 
+                    <br> <br>
+                    This past summer I had the opportunity to work at Lightspin Technologies as a Cyber Security Intern. In this role I dealt with complex problems that required strong problem-solving skills and creative solutions. Throughout my time at Lightspin I learned to keep an open mind and adapt to unfamiliar environments such as using Docker and Kubernetes. I used confluence and Jira to take on an agile workflow to meet deadlines. 
                 </p>
             <a href="index"><img src="Jordan_Tapiero_Photo.jpeg"></a>
         </div>
@@ -62,7 +62,7 @@
 
 
         <!------------- experience -------------------->
-        <section class= "background-experience" id="background-experience">
+        <section class= "background" id="background-experience">
             <div class = "container">
             <div class="header-experience">
             <h1> Experience</h1>
@@ -139,26 +139,30 @@
             <div class="row">
                 <div class="project-col">
                     <img src="SHMUP.png" style="width: 100%">
-                    <h3>Work Experience</h3>
-                        <p> My name is Jordan Tapiero, and I am currently entering the HBA class of 2024 at Ivey Business School, having completed the first 2 years in Software Engineering at Western University of Ontario.</p>
-                    </div>
+                    <h3>Space SHMUP Game</h3>
+                    <p>A space shoot’em up game developed using OOP and singleton design patterns where players can destroy enemies and avoid incoming obstacles to earn score.</p>
+                </div>
                 <div class="project-col">
                     <img src="enigma.png" style="width: 100%">
-                    <h3>Work Experience</h3>
-                        <p> My name is Jordan Tapiero, and I am currently entering the HBA class of 2024 at Ivey Business School, having completed the first 2 years in Software Engineering at Western University of Ontario.</p>
+                    <h3>3D RPG Game</h3>
+                    <p>Designed a 3D RPG game with animations, movement controls and level ups allowing users to choose from array of 3 characters to complete tasks, interact with an NPC and defeat 2 bosses.</p>
                 </div>
                 <div class="project-col">
                     <img src="JT.webp" style="width: 100%">
-                    <h3>Work Experience</h3>
-                        <p> My name is Jordan Tapiero, and I am currently entering the HBA class of 2024 at Ivey Business School, having completed the first 2 years in Software Engineering at Western University of Ontario.</p>
-                </div>
+                    <h3>Porfolio Website</h3>
+                    <p> A user-friendly static website to showcase my relevant work experience, projects, and technical skills.</p>
             </div>
         </div>
     </div>
         </section>
         <!------------contact----->
+
         <section class="contact" id="contact">
-            <div class="container">            
+            <div class= "background">
+            <div class="container">  
+                <div class ="contact-header">
+                    <h1>Get In Touch</h1>
+                </div>
                 <form action="mailto:jordantapiero@gmail.com" method="post">
                     <script src="https://smtpjs.com/v3/smtp.js">
                     </script>
@@ -178,6 +182,7 @@
                 
                 </form>
               </div>
+            </div>
         </section>
     </body>
 </html>  
